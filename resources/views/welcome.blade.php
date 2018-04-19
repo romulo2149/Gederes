@@ -114,17 +114,17 @@
                         <p class="blocs-team-details">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p><br><a href="index.html" target="_blank"><span class="fa fa-twitter icon-sm pull-left blocs-team-first-social"></span></a><a href="index.html" target="_blank"><span class="fa fa-facebook icon-sm pull-left"></span></a><a href="index.html" target="_blank"><span class="fa fa-dribbble icon-sm pull-left"></span></a></div>
                     <div class="col-sm-2"><img src="img/placeholder-user.png" class="img-responsive img-circle center-block blocs-team-avatar" /></div>
                     <div class="col-sm-4">
-                        <h3 class="blocs-team-header">Romulo</h3>
+                        <h3 class="blocs-team-header">Rómulo</h3>
                         <p class="blocs-team-details">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p><br><a href="index.html" target="_blank"><span class="fa fa-twitter icon-sm pull-left blocs-team-first-social"></span></a><a href="index.html" target="_blank"><span class="fa fa-facebook icon-sm pull-left"></span></a><a href="index.html" target="_blank"><span class="fa fa-dribbble icon-sm pull-left"></span></a></div>
                 </div>
                 <div class="row voffset-lg">
                     <div class="col-sm-2"><img src="img/placeholder-user.png" class="img-responsive img-circle center-block blocs-team-avatar" /></div>
                     <div class="col-sm-4">
-                        <h3 class="blocs-team-header">Emilio</h3>
+                        <h3 class="blocs-team-header">Diana</h3>
                         <p class="blocs-team-details">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p><br><a href="index.html" target="_blank"><span class="fa fa-twitter icon-sm pull-left blocs-team-first-social"></span></a><a href="index.html" target="_blank"><span class="fa fa-facebook icon-sm pull-left"></span></a><a href="index.html" target="_blank"><span class="fa fa-dribbble icon-sm pull-left"></span></a></div>
                     <div class="col-sm-2"><img src="img/placeholder-user.png" class="img-responsive img-circle center-block blocs-team-avatar" /></div>
                     <div class="col-sm-4">
-                        <h3 class="blocs-team-header">Jesus</h3>
+                        <h3 class="blocs-team-header">Ariadna</h3>
                         <p class="blocs-team-details">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p><br><a href="index.html" target="_blank"><span class="fa fa-twitter icon-sm pull-left blocs-team-first-social"></span></a><a href="index.html" target="_blank"><span class="fa fa-facebook icon-sm pull-left"></span></a><a href="index.html" target="_blank"><span class="fa fa-dribbble icon-sm pull-left"></span></a></div>
                 </div>
             </div>
@@ -136,7 +136,7 @@
                 <div class="row voffset-lg">
                     <div class="col-sm-2"><img src="img/placeholder-user.png" class="img-responsive img-circle center-block blocs-team-avatar" /></div>
                     <div class="col-sm-4">
-                        <h3 class="blocs-team-header">Esleban</h3>
+                        <h3 class="blocs-team-header">Oswaldo</h3>
                         <p class="blocs-team-details">Lorem ipsum dolor sit amet, adipiscing elit Aenean commodo ligula eget.</p><br><a href="index.html" target="_blank"><span class="fa fa-twitter icon-sm pull-left blocs-team-first-social"></span></a><a href="index.html" target="_blank"><span class="fa fa-facebook icon-sm pull-left"></span></a><a href="index.html" target="_blank"><span class="fa fa-dribbble icon-sm pull-left"></span></a></div>
                     <!-- <div class="col-sm-2"><img src="img/placeholder-user.png" class="img-responsive img-circle center-block blocs-team-avatar" /></div>
                     <div class="col-sm-4">

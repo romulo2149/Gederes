@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
-@section('content')
+@include ('templates/navbar')
+<div class="spacing50"></div>
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -60,6 +61,17 @@
                             </div>
                         </div>
                         <div class="form-group">
+                            <label for="role" class="col-md-4 control-label">Rol</label>
+
+                            <div class="col-md-6">
+                                <select id="rol" type="text" class="form-control" name="rol" required>
+                                    <option value="cliente">Cliente</option>
+                                    <option value="chef">Chef</option>
+                                    <option value="cajero">Cajero</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
                                     Register
@@ -72,4 +84,3 @@
         </div>
     </div>
 </div>
-@endsection
