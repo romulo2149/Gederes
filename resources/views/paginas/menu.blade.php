@@ -55,24 +55,85 @@
         </div>
         @endif
         <!-- bloc-5 END -->
-        <!-- bloc-6 -->
+
+        <div class="spacing50"></div>
         <form class="form-group" action="{{route('ordenenviada')}}" method="post">
         {{ csrf_field() }}
-        <div class="bloc bgc-white l-bloc" id="bloc-6">
-            <div class="container bloc-lg">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h1 class="mg-md text-center tc-dark-red">MENU</h1>
-                        <div>
+        <ul class="nav nav-tabs" style="justify-content: space-between;display: flex;">
+            <li class="active"><a data-toggle="tab" href="#home"><h1 class="mg-md text-center tc-dark-red">Entrada</h1></a></li>
+            <li><a data-toggle="tab" href="#menu1"><h1 class="mg-md text-center tc-dark-red">Platos Fuertes</h1></a></li>
+            <li><a data-toggle="tab" href="#menu2"><h1 class="mg-md text-center tc-dark-red">Bebidas</h1></a></li>
+            <li><a data-toggle="tab" href="#menu3"><h1 class="mg-md text-center tc-dark-red">Postres</h1></a></li>
+        </ul>
+
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                <div class="bloc bgc-white l-bloc" id="bloc-6">
+                        <div class="container bloc-lg">
                             <div class="row">
-                                 @include ('templates/menu', ['platillos'=>$platillos])
+                                <div class="col-sm-12">
+                                    <h1 class="mg-md text-center tc-dark-red">MENU</h1>
+                                    <div>
+                                        <div class="row">
+                                            @include ('templates/menuEntrada', ['platillos'=>$platillos])
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                <div class="bloc bgc-white l-bloc" id="bloc-6">
+                        <div class="container bloc-lg">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h1 class="mg-md text-center tc-dark-red">MENU</h1>
+                                    <div>
+                                        <div class="row">
+                                            @include ('templates/menuPlato', ['platillos'=>$platillos])
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                <div class="bloc bgc-white l-bloc" id="bloc-6">
+                        <div class="container bloc-lg">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h1 class="mg-md text-center tc-dark-red">MENU</h1>
+                                    <div>
+                                        <div class="row">
+                                            @include ('templates/menuBebidas', ['platillos'=>$platillos])
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu3" class="tab-pane fade">
+                <div class="bloc bgc-white l-bloc" id="bloc-6">
+                        <div class="container bloc-lg">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h1 class="mg-md text-center tc-dark-red">MENU</h1>
+                                    <div>
+                                        <div class="row">
+                                            @include ('templates/menuPostre', ['platillos'=>$platillos])
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- bloc-10 END -->
+
+
         <!-- bloc-11 -->
         <div class="bloc l-bloc bgc-white" id="bloc-11">
             <div class="container bloc-lg">

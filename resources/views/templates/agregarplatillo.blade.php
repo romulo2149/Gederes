@@ -17,7 +17,13 @@
                                     <div class="form-group"><label>Descripción<br></label><input type="text" name="descripcion" class="form-control" id="descripcion" required /></div>
                                     <div class="form-group"><label>Precio</label><input type="text" name="precio" class="form-control " id="precio" required /></div>
                                     <div class="form-group"><label>Imagen<br></label><input type="file" name="imagen" class="form-control" id="imagen" required /></div>
-                                    <div class="form-group"><label>Tipo<br></label><input type="text" name="tipo" class="form-control" id="tipo" required /></div>
+                                    <div class="form-group"><label>Tipo<br></label><select name="tipo" class="form-control" id="tipo" required >
+                                                                                        <option value="Entrada">Entrada</option>
+                                                                                        <option value="Plato Fuerte">Plato Fuerte</option>
+                                                                                        <option value="Bebidas">Bebidas</option>
+                                                                                        <option value="Postre">Postre</option>
+                                                                                   </select>
+                                    </div>
                                     <div class="form-group"><label>Ingredientes<br></label></div>
                                     <div class="form-group">
                                              @include ('templates/ingredientOption', ['ingredientes'=>$ingredientes])
