@@ -30,12 +30,16 @@ class platilloController extends Controller
         }
     	$platillo->save();
         $arraydetalles = Input::get('ingredientes');
+        if(empty($arraydetalles)){
+        }else{
         foreach ($arraydetalles as $nombreingrediente) {
             $detallesplato = new detallesplato;
             $detallesplato->platillo = $request->nombrePlatillo;
             $detallesplato->ingredientes=$nombreingrediente;
             $detallesplato->save();
         }
+        }
+        
         $platillo = platillo::all();
         $ingredientes = ingrediente::all();
     	return view('paginas/menu')->with('platillos',$platillo)->with('ingredientes',$ingredientes);
